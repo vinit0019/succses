@@ -63,7 +63,7 @@
   width: 100%;
   height: 100vh;
   padding-top: 100px;
-  background-image: url(/assets/Background\ 01.jpg);
+  background-image: url(/Assets/Background\ 01.jpg);
   background-attachment: fixed;
   background-size: cover;
 }
@@ -193,7 +193,7 @@
   width: 100%;
   height: 850px;
   /* border: 2px solid black; */
-  background-image: url(/assets/Background\ 03.jpeg);
+  background-image: url(/Assets/Background\ 03.jpeg);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
