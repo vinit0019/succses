@@ -1,0 +1,461 @@
+/* Universal selector */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* navbar */
+.navbar {
+  width: 100%;
+  height: 100px;
+  /* border: 2px solid black; */
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* navbarLeft */
+.navbar .navbarLeft {
+  float: left;
+  width: 45%;
+  height: inherit;
+  /* border: 2px solid black; */
+  text-align: center;
+  padding-top: 20px;
+  line-height: 30px;
+}
+
+/* h1 section   */
+.navbar .navbarLeft h1 {
+  font-weight: 700;
+  word-spacing: 4px;
+  letter-spacing: 3px;
+}
+
+/* p section */
+.navbar .navbarLeft p {
+  font-weight: 300;
+  word-spacing: 4px;
+  letter-spacing: 2px;
+}
+
+/* navbarRight */
+.navbar .navbarRight {
+  float: right;
+  width: 55%;
+  line-height: 100px;
+  height: inherit;
+  /* border: 2px solid black; */
+  text-align: left;
+  font-weight: 300;
+}
+
+/* space  section*/
+.navbar .navbarRight .space {
+  padding-right: 30px;
+}
+
+/* hero-section */
+.hero-section {
+  width: 100%;
+  height: 100vh;
+  padding-top: 100px;
+  background-image: url(/assets/Background\ 01.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* content p section */
+.hero-section .content p {
+  padding-top: 80px;
+  word-spacing: 4px;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+
+/* content h1 section */
+.hero-section .content h1 {
+  font-size: 140px;
+  letter-spacing: 15px;
+}
+
+/* content h5 */
+.hero-section .content h5 {
+  word-spacing: 3px;
+  letter-spacing: 2px;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+/* content button */
+.hero-section .content button {
+  margin-top: 30px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: black;
+  color: aliceblue;
+  border: none;
+}
+
+/* content2  section*/
+.content2 {
+  width: 100%;
+  height: 100vh;
+  /* border: 2px solid black; */
+}
+
+/* content2 section left */
+.content2 .left {
+  float: left;
+  width: 50%;
+  height: inherit;
+}
+
+/* content2 section left left-1 */
+.content2 .left .left-1 {
+  float: left;
+  width: 30%;
+}
+
+/* content2 section left left-2 */
+.content2 .left .left-2 {
+  float: right;
+  width: 70%;
+}
+
+/* content2 section Right */
+.content2 .right {
+  float: right;
+  width: 50%;
+  height: inherit;
+}
+
+/* content2 section Right img */
+.content2 .right img {
+  height: 100vh;
+  width: 100%;
+}
+
+/* content2 section left left-2 border */
+.content2 .left .left-2 .border {
+  height: 50px;
+  width: 50px;
+  border-bottom: 3px solid black;
+  margin-bottom: 20px;
+}
+
+/* content2 section left left-2 .firstdiv */
+.content2 .left .left-2 .firstdiv {
+  font-size: 30px;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* content2 section left left-2 .secstdiv */
+.content2 .left .left-2 .secdiv {
+  margin-top: 20px;
+  width: 70%;
+  text-align: left;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+}
+
+/* content2 section left left-2 .thytdiv */
+.content2 .left .left-2 .thdiv {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* content2 section left left-2 .btn-1 */
+.content2 .left .left-2 .thdiv .btn-1 {
+  background-color: black;
+  width: 120px;
+  height: 40px;
+  color: white;
+  margin-right: 10px;
+}
+
+/* content2 section left left-2 .btn-2 */
+.content2 .left .left-2 .thdiv .btn-2 {
+  background-color: white;
+  width: 170px;
+  height: 40px;
+  color: black;
+  border: 2px solid black;
+}
+
+  /* content3 section  */
+.content3{
+  width: 100%;
+  height: 850px;
+  /* border: 2px solid black; */
+  background-image: url(/assets/Background\ 03.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  padding-inline: 300px;
+  padding-top: 60px;
+}
+
+ /* content line section */
+.content3 .line{
+    width: 50px;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 50px;
+}
+
+  /* content line section */
+.content3 h1{
+    font-size: 50px;
+    line-height: 60px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+  /* content box section */
+.content3 .box{
+    width: 30%;
+    height: 350px;
+    border: 5px solid black;
+    margin-top: 50px;
+    padding: 20px;
+    float: left;
+    margin-right: 30px;
+}
+
+  /* content box h1 section */
+.content3 .box h1{
+  font-size: 25px;
+  text-align: center;
+  line-height: 30px;
+}
+
+ /* content box p section */
+.content3 .box p{
+  margin-top: 10px;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 300;
+}
+
+/* content box line2 section */
+.content3 .box .line2{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+/* content box button section */
+.content3 .box  button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: black;
+    color: wheat;
+    margin-top: 60px;
+    margin-left: 60px;   
+}
+
+/* content box bi-1 section */
+.content3 .box #bi-1{
+  margin-top: 90px;
+}
+
+/* content box bi-2 section */
+.content3 .box #bi-2{
+  margin-top: 70px;
+}
+
+/* content box bi-3 section */
+.content3 .box #bi-3{
+  margin-top: 15px;
+}
+
+/* content button section */
+.content3  #button-2{
+  margin-top: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-inline: 40px;
+  margin-inline: 40%;
+  background-color: black;
+  color: aliceblue;
+  border: none;
+  font-size: 15px;
+}
+
+ /* content section */
+.content4{
+  width: 100%;
+  height: 500px;
+  /* border: 2px solid black; */
+  background-color:rgb(87,187,191);
+}
+
+  /* content left section */
+.content4 .left{
+  float: left;
+  width: 50%;
+  height: inherit;
+  /* border: 2px solid black; */
+  padding-inline: 250px;
+}
+
+ /* content left line3 section */
+.content4 .left .line3{
+  width: 40px;
+  height: 2px;
+  background-color: black;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+ /* content left h1 section */
+.content4 .left h1{
+  font-size: 20px;
+  letter-spacing: 3px;
+  margin-bottom: 40px;
+}
+
+ /* content left con4-p1 section */
+.content4 .left .con4-p1{
+  font-weight: 300;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+/* content left con4-p2 section */
+.content4 .left .con4-p2{
+  font-weight: 300;
+  font-size: 15px; 
+} 
+
+/* content left con4-p3 section */
+.content4 .left .con4-p3{
+  font-weight: 300;
+  font-size: 15px; 
+  margin-bottom: 30px;
+} 
+
+/* content left h6 section */
+.content4 .left h6{
+  font-weight: 300;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+/* content left logo-4 i section */
+.content4 .left .logo-4 i {
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+
+/* content left con4-p section */
+.content4 .left .con4-p4{
+  font-weight: 300;
+  font-size: 15px;
+}
+
+/* .content4 .right{
+  float: right;
+  width: 50%;
+  height: inherit;
+  margin-top: 50px;
+}
+
+.content4 .right .f-1{
+   float: left;
+   width: 40%;
+}
+
+.content4 .right .f-2{
+  float: right;
+  width: 40%;
+  margin-right: 150px;
+}
+
+ .content4 .right form input{
+  width: 80%;
+  height: 60px;
+  background-color: rgb(87,187,191);
+} 
+.content4 .right .f-1 form input{
+  width: 40%;
+  height: 40px;
+}
+ */
+  .content4 .right{
+    padding-top: 30px;
+  }
+
+ .content4 .right .fname input{
+  float: left;
+  width: 215px;
+  height: 45px;
+  margin-right: 20px;
+  border: 2px solid black;
+  background-color: rgb(87,187,191);
+ }
+.content4 .right .lname{
+  margin-top: -23px;
+}
+ .content4 .right .lname input{
+  width: 215px;
+  height: 45px;
+  border: 2px solid black;
+  background-color: rgb(87,187,191);
+  
+ }
+
+ .content4 .right .email input{
+  width: 30%;
+  height: 45px;
+  border: 2px solid black;
+  background-color:rgb(87,187,191);
+  margin-bottom: 20px;
+ }
+
+ .content4 .right .subject input{
+  width: 30%;
+  height: 45px;
+  border: 2px solid black;
+  background-color:rgb(87,187,191);
+  margin-bottom: 20px;
+ }
+
+ .content4 .right .message textarea{
+  width: 30%;
+  height: 100px;
+  border: 2px solid black;
+  background-color:rgb(87,187,191);
+  margin-bottom: 15px;
+ }
+
+ .content4 .right .submit{
+  text-align: right;
+  padding-right: 305px;
+ }
+
+ .content4 .right .submit button{
+  padding-inline: 70px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 15px;
+  background-color: black;
+  color: aliceblue;
+  border: none;
+ }
+
+
+
+
+
+
+ 
